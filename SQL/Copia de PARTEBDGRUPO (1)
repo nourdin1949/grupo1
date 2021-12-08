@@ -1,0 +1,28 @@
+
+CREATE TABLE `Parte`.`Tutor` (
+  `id` INT NOT NULL AUTO_INCREMENT,
+  `nombrePadre` VARCHAR(100) NOT NULL,
+  `direccion` VARCHAR(100) NOT NULL,
+  `codigo_postal` VARCHAR(100) NOT NULL,
+  `ciudad` VARCHAR(100) NOT NULL,
+  PRIMARY KEY (`id`));
+
+
+CREATE TABLE `Parte`.`Alumno` (
+  `id` INT NOT NULL AUTO_INCREMENT,
+  `nombre` VARCHAR(100) NOT NULL,
+  `curso` VARCHAR(100) NOT NULL,
+  PRIMARY KEY (`id`));
+
+
+CREATE TABLE `Parte`.`parte` (
+  `id` INT NOT NULL AUTO_INCREMENT,
+  `comentario` VARCHAR(150) NOT NULL,
+  `fecha_suceso` DATE NOT NULL,
+  `fecha_llamada` DATE NOT NULL,
+  `fecha_rellenar` DATE NOT NULL,
+  `personaCitada` VARCHAR(100) NOT NULL,
+  `hora` TIME NOT NULL,
+  `profesor` VARCHAR(100) NOT NULL,
+  PRIMARY KEY (`id`));
+
