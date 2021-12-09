@@ -85,17 +85,17 @@
         <div class="row">
           <p>
             <label>
-              <input type="checkbox" name="motivos[]" value="El alumno ha agredido fisica y/o verbalmente a un compañero" id="1" />
+              <input type="checkbox" name="motivos[]" value="1#" id="1" />
               <span>El alumno ha agredido fisica y/o verbalmente a un compañero</span>
             </label>
             <br>
             <label>
-              <input type="checkbox" name="motivos[]"value="2" id="2" />
+              <input type="checkbox" name="motivos[]"value="2#" id="2" />
               <span>El alumno ha sido visualizado por las camaras o por los docentes saliendo del centro sin permiso en medio de las clases</span>
             </label>
             <br>
             <label>
-              <input type="checkbox" name="motivos[]"value="3" id="3" />
+              <input type="checkbox" name="motivos[]"value="3#" id="3" />
               <span>El alumno se ha negado a seguir instrucciones de un docente, llegando a levantar la voz hacia el mismo</span>
             </label>
             <br>
